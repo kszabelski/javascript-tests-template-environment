@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--msvs_version=2013' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json angularjs-seed@ No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'E:\\git\\_testProjects\\jsPlaygroundAfter4Developers',
+7 verbose install   [ 'phantomjs',
+7 verbose install     'karma',
+7 verbose install     'karma-junit-reporter',
+7 verbose install     'karma-jasmine',
+7 verbose install     'karma-ng-scenario',
+7 verbose install     'karma-chrome-launcher',
+7 verbose install     'karma-firefox-launcher',
+7 verbose install     'karma-html2js-preprocessor',
+7 verbose install     'karma-requirejs',
+7 verbose install     'karma-coffee-preprocessor',
+7 verbose install     'karma-phantomjs-launcher',
+7 verbose install     'karma-script-launcher' ] ]
+8 info preinstall angularjs-seed@
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping phantomjs@~1.9 E:\git\_testProjects\jsPlaygroundAfter4Developers
+11 verbose already installed skipping karma@~0.10.4 E:\git\_testProjects\jsPlaygroundAfter4Developers
+12 verbose already installed skipping karma-junit-reporter@~0.1 E:\git\_testProjects\jsPlaygroundAfter4Developers
+13 verbose already installed skipping karma-jasmine@~0.1.3 E:\git\_testProjects\jsPlaygroundAfter4Developers
+14 verbose already installed skipping karma-ng-scenario@~0.1 E:\git\_testProjects\jsPlaygroundAfter4Developers
+15 verbose already installed skipping karma-chrome-launcher@~0.1.0 E:\git\_testProjects\jsPlaygroundAfter4Developers
+16 verbose already installed skipping karma-firefox-launcher@~0.1.0 E:\git\_testProjects\jsPlaygroundAfter4Developers
+17 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 E:\git\_testProjects\jsPlaygroundAfter4Developers
+18 verbose already installed skipping karma-requirejs@~0.1.0 E:\git\_testProjects\jsPlaygroundAfter4Developers
+19 verbose already installed skipping karma-coffee-preprocessor@~0.1.0 E:\git\_testProjects\jsPlaygroundAfter4Developers
+20 verbose already installed skipping karma-phantomjs-launcher@~0.1.0 E:\git\_testProjects\jsPlaygroundAfter4Developers
+21 verbose already installed skipping karma-script-launcher@~0.1.0 E:\git\_testProjects\jsPlaygroundAfter4Developers
+22 silly resolved []
+23 info build E:\git\_testProjects\jsPlaygroundAfter4Developers
+24 verbose linkStuff [ false, false, false, 'E:\\git\\_testProjects' ]
+25 info linkStuff angularjs-seed@
+26 verbose linkBins angularjs-seed@
+27 verbose linkMans angularjs-seed@
+28 verbose rebuildBundles angularjs-seed@
+29 verbose rebuildBundles [ '.bin',
+29 verbose rebuildBundles   'karma',
+29 verbose rebuildBundles   'karma-chrome-launcher',
+29 verbose rebuildBundles   'karma-coffee-preprocessor',
+29 verbose rebuildBundles   'karma-firefox-launcher',
+29 verbose rebuildBundles   'karma-html2js-preprocessor',
+29 verbose rebuildBundles   'karma-jasmine',
+29 verbose rebuildBundles   'karma-junit-reporter',
+29 verbose rebuildBundles   'karma-ng-scenario',
+29 verbose rebuildBundles   'karma-phantomjs-launcher',
+29 verbose rebuildBundles   'karma-requirejs',
+29 verbose rebuildBundles   'karma-script-launcher',
+29 verbose rebuildBundles   'phantomjs' ]
+30 info install angularjs-seed@
+31 info postinstall angularjs-seed@
+32 info prepublish angularjs-seed@
+33 error peerinvalid The package karma-requirejs does not satisfy its siblings' peerDependencies requirements!
+33 error peerinvalid Peer karma@0.10.10 wants karma-requirejs@~0.2.0
+34 error System Windows_NT 6.2.9200
+35 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--msvs_version=2013"
+36 error cwd E:\git\_testProjects\jsPlaygroundAfter4Developers
+37 error node -v v0.10.24
+38 error npm -v 1.3.21
+39 error code EPEERINVALID
+40 verbose exit [ 1, true ]
